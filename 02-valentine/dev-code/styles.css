@@ -1,0 +1,60 @@
+/* Your styles should go here */
+@import url(http://fonts.googleapis.com/css?family=Arimo|Handlee|Shadows+Into+Light+Two);
+
+body {
+  font-family: 'Arimo', sans-serif;
+}
+
+h1{
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+h1 > img {
+  height: 1.1em;
+}
+
+.card  {
+  position: relative;
+  display: table;
+}
+
+.card  > div{
+  display: table-cell;
+  background: #efefef;
+  vertical-align: middle;
+  padding: 5px;
+  font-family: 'Handlee', cursive;
+}
+
+#preview {
+  padding-top: 30px;
+  clear: both;
+}
+
+.hidden {
+  display: none;
+}
+
+.themes {
+  position: relative;
+  list-style: none;
+  width: 100%;
+  padding-left: 0px;
+}
+.themes > li{
+  float: left;
+  width: 200px;
+  height: 220px;
+  background: #daebf7;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.themes > li img{
+  width: 100%;
+}
+.themes > li h2{
+  font-size: 1.1em;  
+}

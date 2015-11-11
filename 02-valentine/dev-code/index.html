@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Put your js and css references here -->
+  <link rel="stylesheet" href="styles.css">        
+  <script src="jquery-2.1.0.min.js"></script>         
+  <script src="app.js"></script>        
+  <script src="data.js"></script>
+  
+</head>
+
+<body>
+ <h1><img src="img/logo.png"> Be my Valentine</h1>
+
+    <div class="options"> 
+      <p>      
+      <label for="inputFrom">From </label>
+      <input id="inputFrom" type="text">
+      
+      <label for="inputTo">to </label>
+      <input id="inputTo" type="text">   
+      
+      <label for="inputMsg">, with the message: </label>
+      <input id="inputMsg" type="text">               
+      
+    </div>   
+   
+    <ul class="themes">
+        <!-- This is an example - the list of themes should be loaded dynamically -->
+        <li>
+          <img src="img/theme1.jpg">
+          <h2>See you tonight</h2>  
+          <button class="opt-choose" value="theme1">Choose</button>     
+        </li> 
+                                              
+    </ul> 
+   
+    <!-- to make it visible, remove the class "hidden" -->
+    <div id="preview" class="hidden">
+      <h2>Preview </h2>
+      <!-- This is an example of card -->
+      <div class="card">  
+          <div class="picture">
+            <img src="img/theme2.jpg">
+          </div>
+          <div class="message">
+            <h2>Dear <span id="cardTo">Lauren,</span><h2>
+
+            <p id="cardMsg">I know it's bad timing, but this is over.</p>
+
+            <p id="cardFrom">Puppazzo</p>
+          </div>
+      </div>
+    </div>
+
+</body>
+
+</html>
